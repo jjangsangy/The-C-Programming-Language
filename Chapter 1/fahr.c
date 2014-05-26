@@ -8,9 +8,9 @@ main()
 	float fahr, celcius;
 	int lower, upper, step;
 
-	lower = 0;		/* lower limit of temperature */
+	lower = 0;	/* lower limit of temperature */
 	upper = 300;	/* upper limit */
-	step = 20;		/* step size */
+	step = 20;	/* step size */
 
 	fahr = lower;
 	while (fahr <= upper) {
