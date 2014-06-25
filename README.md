@@ -19,7 +19,6 @@ Table of Contents
 7. **Input and Output**
 8. **The Unix System Interface**
 
-
 - **Appendix A. Reference Manual**
 - **Appendix B. Standard Library**
 - **Appendix C. Summary of Changes**
