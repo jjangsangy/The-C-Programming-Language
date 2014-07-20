@@ -1,10 +1,12 @@
 CFLAGS += -Wall
-BASEDIR = $(CURDIR)
-CHAPTER1 = "$(BASEDIR)/Chapter 1"
+CC = clang
 
-help:
-	@echo 'Usage: '
-	@echo ' make clean: remove the generated files '
+all:
+	for dir in "$$(find * -type f -name *.c)"; do \
+		$(CC) $(CFLAGS) "$${dir}"; \
+	done
+
+.PHONY: clean
 
 clean:
 	@cd $(CHAPTER1)
